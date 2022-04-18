@@ -1,0 +1,15 @@
+<h2>{{page}}</h2>
+{{#if result.length}}
+<ul>
+    {{#each result}}
+        <li>
+            <label>
+            <span>{{name}} {{surname}}</span>
+            <button class='btn btn-small'>Go to</button>
+            </label>
+        </li>
+    {{/each}}
+</ul>
+
+{{else}}
+{{/if}}
